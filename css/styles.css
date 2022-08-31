@@ -7,10 +7,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #F7ECDE;
+    background-color: #7FBCD2;
     padding-top: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 .cloud {
     width: 150px;
@@ -20,17 +20,106 @@ body {
 }
 .header-content {
     text-align: center;
-    color: #9ED2C6;
+    color: #F7ECDE;
 }
-.header-content > h1 {
+.header-content h1 {
     font-family: 'Sacramento', cursive;
     font-size: 100px;
     margin-bottom: 0;
 }
-.header-content > h2 {
+.header-content h2 {
     font-family: "Roboto", sans-serif;
-    font-size: 50px;
+    font-size: 35px;
 }
 .mountain {
     text-align: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+.intro div {
+    padding: 50px;
+}
+.intro img {
+    width: 500px;
+    height: auto;
+}
+.intro-right > h2 {
+    font-size: 50px;
+    color: #7FBCD2;
+}
+.intro-right p {
+    font-size: 30px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 300px;
+    padding-bottom: 100px;
+}
+.skills h3 {
+    font-size: 35px;
+    padding-left: 300px;
+    color: #7FBCD2;
+}
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logos div {
+    width: 205px;
+    height: 205px;
+    padding-left: 50px;
+}
+.logos img {
+    max-width: 100%;
+    height: auto;
+}
+.cplusplus-logo img {
+    max-width: 89%;
+    height: auto;
+}
+.htmljscss-logo {
+    margin-left: -50px;
+}
+.htmljscss-logo img {
+    max-width: 260%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7FBCD2;
+}
+.contact h3 {
+    font-size: 25px;
+    color: #1C3879;
+}
+.contact ul {
+    list-style-type: none;
+    padding-right: 60px;
+}
+.contact li {
+    display: inline;
+    color: #1C3879;
+    font-size: 25px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.contact a {
+    text-decoration: none;
+    color: #1C3879;
 }
